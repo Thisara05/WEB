@@ -1,0 +1,103 @@
+.body
+{
+	align-items: center;
+	justify-content: center;
+	width: 1200px;
+	border-color: transparent;
+	color: white;
+}
+body
+{
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	background: #3f3f3f;
+}
+.pcard
+{
+	width: 1200px;
+	background: #000;
+	display: flex;
+	border-radius: 10px;
+	overflow: hidden;
+	transition: 0.5s;
+	align-content: left;
+	text-align: left;
+	justify-content: left;
+}
+.left
+{
+	background: linear-gradient(to top, #ff6600 0%, #000000 50%);
+	width: 400px;
+	height: 700px;
+	transition: 0.5s;
+}
+.proimg
+{
+	position: absolute;
+	margin-top: 150px;
+	margin-left: 100px;
+	transition: 0.5s;
+
+}
+.protext
+{
+	width: 600px;
+	margin-left: 200px;
+	margin-top: 150px;
+	transition: 0s;
+}
+h1
+{
+	font-size: 40pt;
+	transition: 0.5s;
+	color: white;
+}
+h2
+{
+	text-align: left;
+	font-size: 30pt;
+	color: white;
+}
+.card_link
+{
+	margin-top: 50px;
+	padding: 5px ;
+	border-radius: 5px;
+	background: #ff6600;
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+	display: inline-block;
+	transition: 0.5s;
+}
+.card_link:hover
+{
+	box-shadow: 0 0 10px #ff6600 , 0 0 40px #ff6600;
+	letter-spacing: 0.5px;
+	border-radius: 10px;
+	transition: 0.5s;
+
+}
+.sptable
+{
+	margin-left: -150px;
+}
+.sptable td
+{
+	height: 90px;
+}
+.sptable tr:hover
+{
+	height: 90px;
+	background: #80808033;
+}
+.sptb2
+{
+	color: #a0a0a0;
+	font-size: 15pt;
+}
+.sptb1
+{
+	font-size: 20pt;
+}

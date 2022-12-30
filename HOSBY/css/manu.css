@@ -1,0 +1,57 @@
+.manu
+{
+	border-style: hidden;
+	position: absolute;
+	top: 72px;
+	left: -300px;
+	transition: 0.3s;
+	z-index: 2;
+	font-family: Helvetica;
+}
+.manu:hover
+{
+	left: -15px;
+	transition: 0.5s;
+}
+.manulink
+{
+	display: inline-block;
+	width: 300px;
+	height: 60px;
+	padding-top: 40px;
+	background: #666666dd;
+	text-decoration: none;
+	transition: 1s;
+	color: white;
+	text-align: left;
+}
+.manulink:hover
+{
+	background: red;
+	text-shadow: 0 0 10px #ff0000;
+	transition: 0.5s;
+	background: linear-gradient(to left, #ff0000 0%, #000000 100%);
+	//box-shadow: 0 0 10px red , 0 0 40px red , 0 0 80px red;
+}
+.manuhead
+{
+	display: inline-block;
+	width: 300px;
+	height: 60px;
+	padding-top: 40px;
+	background: #000000ee;
+	text-decoration: none;
+	font-size: 30pt;
+	text-align: center;
+	color: white;
+}
+.mimg
+{
+	position:absolute;
+	margin-top: -15px;
+	margin-left: 30px;
+}
+body
+{
+	font-family: Helvetica;
+}

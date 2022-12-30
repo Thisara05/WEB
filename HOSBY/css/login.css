@@ -1,0 +1,94 @@
+.body
+{
+	align-items: center;
+	justify-content: center;
+	width: 1200px;
+	border-color: transparent;
+	color: white;
+}
+body
+{
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	background: #3f3f3f;
+}
+.logincard
+{
+	margin-top: 100px;
+	width: 800px;
+	height: 600px;
+	background: black;
+	border-radius: 30px;
+	box-shadow: 0 0 10px #000000;
+	overflow: hidden;
+}
+.tbtn
+{
+	margin-top: 50px;
+	border: 0;
+	outline: none;
+	background: transparent;
+	color: #4d0000;
+	font-weight: bold;
+	font-size: 15pt;
+	padding: 5px 50px;
+	position: relative;
+	transition: 1s;
+}
+#btback
+{
+	width: 150px;
+	height: 50px;
+	background: transparent;
+	position: absolute;
+	margin-left: 220px;
+	top: 255px;
+	border-radius: 30px;
+	border: 0px solid red;
+	box-shadow: 0 0 10px #ff0000 , 0 0 40px #ff0000;
+	transition: 1s;
+}
+.forms
+{
+	display: flex;
+	justify-content: center;
+	margin-top: 80px;
+	margin-left: 550px;
+	transition: 1s;
+}
+.login
+{
+	margin-left: 100px;
+}
+.register
+{
+	margin-left: 300px;
+}
+input
+{
+	padding: 10px 100px;
+	background: gray;
+	border-radius: 15px;
+	color: red;
+	outline: none;
+	border-bottom: 2px solid red;
+	background: transparent;
+	text-shadow: 0 0 1px red;
+}
+button
+{
+	border: none;
+	background: transparent;
+	color: red;
+	font-size: 14pt;
+	box-shadow: 0 0 10px #ff0000;
+	border-radius: 20px;
+	padding: 5px 30px;
+	outline: none;
+}
+button:active
+{
+	background: red;
+	color: black;
+}
