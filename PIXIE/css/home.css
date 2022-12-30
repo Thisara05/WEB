@@ -1,0 +1,98 @@
+.body
+{
+	background: black;
+	color: white;
+}
+.card
+{
+	width: 1200px;
+	height: 505px;
+	border: 2px solid white;
+}
+table tr td
+{
+	height: 50px;
+	margin-left: 30px;
+	transition: 0.5s;
+}
+table tr td:hover
+{
+	color: black;
+	background: white;
+	cursor: pointer;
+}
+table tr th
+{
+	height: 70px;
+}
+.subcard
+{
+	width: 800px;
+	height: 500px;
+	//border: 2px solid white;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	//display: none;
+  	transition: 1s;
+}
+.subcard1
+{
+	width: 800px;
+	height: 500px;
+	//border: 2px solid white;
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+  	color: red;
+  	display: none;
+  	transition: 1s;
+  	flex-flow: wrap;
+
+}
+.subcard1 button
+{
+	display: block;	
+	width: 200px;
+	height: 60px;
+	color: black;
+	background: white;
+	transition: 0.5s;
+	cursor: pointer;
+}
+.subcard1 select:hover,input:hover
+{
+	color: white;
+	background: black;
+	box-shadow: white 0px 0px 20px;
+}
+.subcard1 button:hover
+{
+	color: white;
+	background: black;
+	box-shadow: white 0px 0px 20px;
+}
+.subcard1 select,input
+{
+	color: white;
+	background: black;
+	height: 60px;
+	text-align: center;
+	font-size: 20px;
+	width: 400px;
+	cursor: pointer;
+}
+.subcard1 option 
+{
+	color: white;
+	background: black;
+	height: 60px;
+	text-align: center;
+	font-size: 20px;
+}
+.pro
+{
+	position: absolute;
+	margin-left: 1200px;
+	margin-top: -480px;
+}

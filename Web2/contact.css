@@ -1,0 +1,111 @@
+#form_body {
+  background: white;
+  width: 90%;
+  max-width: 800px;
+  margin: 50px auto;
+  font-family: Calibri, Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+h1,
+p {
+  text-align: center;
+}
+label {
+  display: block;
+  margin: 1em 0 0.2em;
+}
+/* single-line text, checkbox, and button */
+input,
+select,
+textarea,
+button,
+.mes a {
+  display: block;
+  width: 60%;
+  padding: 0.3em;
+  font-size: 20px;
+  background-color: #fbfbfb;
+  border: solid 1px #ccc;
+  resize: vertical;
+}
+textarea {
+  min-height: 180px;
+}
+
+input[type="checkbox"] {
+  display: inline;
+  width: auto;
+  color: red;
+}
+
+input[type="submit"],
+button,
+.mes a {
+  background:#d9b22b;
+  margin: 1em 0 0;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  transition: all 0.3s ease-out;
+}
+
+input:hover,
+select:focus,
+select:hover,
+textarea:focus,
+textarea:hover {
+  background: lavenderBlush;
+}
+
+/* hover and focus states */
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+  background: rgb(4, 145, 4);
+  outline: none;
+}
+#loginf
+{
+  display: block;
+  transition: 0.5s;
+}
+
+#regf
+{
+  display: none;
+  transition: 0.5s;
+}
+#logb
+{
+  transition: 0.5s;
+  cursor: pointer;
+}
+#regb
+{
+  opacity: 50%;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.item
+{
+  width: 50;
+  height: 240px;
+  background: transparent;
+  margin-top: 16px;
+}
+.mes
+{
+  border: 5px solid #d9b22b;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 30px;
+  text-align: center;
+
+}
+.mes table tr td h1,h2
+{
+  text-align: left;
+  vertical-align: top;
+}
